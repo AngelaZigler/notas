@@ -11,16 +11,39 @@
             background-color: rgba(63, 238, 215, 0.849);
         }
         h1{
-            background-color: rgba(252, 7, 101, 0.747);
+            background-color: rgba(222, 17, 230, 0.836);
+            font-size: 50px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 100;
+            width: 400px;
+            height: 50px;
+            list-style: ellipse;
+
+            border-width: 20px;
+            border-style:ridge;
+            border-color: rgb(129, 30, 221);
+            border-radius: 20px;
+            margin:auto;
+            box-shadow: 10px 15px 10px;
         }
         pre{
-            background-color: aquamarine;
+            background-color: rgb(111, 240, 223);
             color: blue;
         }
         ul{
-            background-color: beige;
+            background-color: rgb(107, 1, 60);
+            color: rgb(248, 73, 175);
         }
-        
+        #primer-parrafo{
+            background-color: rgba(75, 231, 171, 0.897);
+            color: rgb(1, 13, 32);
+            margin: 20px;
+        }
+        .violet{
+            color: violet;
+            background-color: rgb(69, 13, 121);
+        }
+
         
     </style>
 </head>
@@ -28,8 +51,8 @@
 <body>
     <main>
         <section>
-            <h1 style="color: purple;">  Desarollo Web</h1>
-            <p>
+            <h1 style="color: rgb(68, 5, 68);">Desarollo Web</h1>
+            <p id="primer-parrafo">
                 Este curso forma parte del programa de Escuelas de Código de la Ciudad de México, tiene como finalidad
                 introducir las herramientas necesarias para comenzar en el desarrollo web. Al finalizar los alumnos
                 tendrán un panorama general de lo que es el desarrollo web, cómo funciona la web, las tecnologías
@@ -77,7 +100,7 @@
                 El lenguaje HTML fue creado para estructurar y dar sentido al contenido de la página web. Su sintaxis
                 gira esencialmente en torno a tres términos básicos: elemento, etiqueta y atributo.
             </p>
-            <h4 >Elementos </h4>
+            <h4 style="color: rgb(204, 44,44);">Elementos</h4>
             <p>
                 Los elementos se refieren a los identificadores que describen objetos (texto, imagen u objeto
                 multimedia) dentro de una página web, incluida la estructura y el contenido. Los elementos estan
@@ -102,7 +125,7 @@
                 de
                 diagonal "/".
             </p>
-            <p>
+            <p class="violet">
                 <em> Ejemplo.- </em> <br> Etiqueta para definir texto importante <br>
                 &lt;strong&gt; mostrar un texto en negrita&lt;/strong &gt; <br>
             </p>
@@ -112,7 +135,7 @@
                 elemento proveniente de un recurso externo en en una ubicación bien definida en la página web. Para este
                 tipo de etiqueta, no es necesario marcar el inicio y final de este elemento.
             </p>
-            <p> <em>Ejemplo .- </em> <br>
+            <p class="violet"> <em>Ejemplo .- </em> <br>
                 Etiqueta para agregar una imagen <br>
                 &lt; img src="http:/logo.jpg" alt="Logo"/ &gt;
             </p>
@@ -130,7 +153,7 @@
 
             </p>
 
-            <h4>Atributos</h4>
+            <h4 style="color: rgb(204, 44, 44)" > Atributos</h4>
             <p>
                 Los atributos son propiedades que se utilizan para agregar declaraciones adicionales a un elemento dado
                 (un identificador (id), una fuente (src), etc.). Siempre están incrustados en la etiqueta de apertura y
@@ -325,9 +348,7 @@
             <p>Resultado</p>
             <code>
 <pre>
-h1{
-    background-color:blue;
-}
+
 </pre>
 </code>
         </section>
