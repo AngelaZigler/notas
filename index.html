@@ -43,12 +43,27 @@
             color: violet;
             background-color: rgb(69, 13, 121);
         }
+        header{
+            background-color: blueviolet;
+        }
+        main{
+            background-image: url(https://i.pinimg.com/564x/f2/5c/52/f25c52ed1647ab5f81ba04a1527b46b9.jpg)
+        }
 
         
     </style>
 </head>
 
 <body>
+    <header>
+        <img src="" alt="">
+        <nav>
+            <a href="">inicio HTML</a>
+            <a href="pensamiento.html">pensamiento computacional</a>
+            <a href="#etiquetas">Desarollo web</a>
+        </nav>
+        <h2>Escuelas de codigo</h2>
+    </header>
     <main>
         <section>
             <h1 style="color: rgb(68, 5, 68);">Desarollo Web</h1>
@@ -549,7 +564,7 @@
                 tabla, pero puede ser cambiado con estilos de CSS</p>
         </section>
 
-        <section>
+        <section id="etiquetas">
             <h2>Etiquetas multimedia</h2>
             <h3>Imágenes</h3>
             <p>Permite agregar imágenes, debe incluir el atributo obligatorio <em>src</em> cuyo valor corresponde a la
@@ -653,31 +668,35 @@
                 Lo lamento; su navegador no soporta video HTML5.
             </video>
         </section>
+        <form>
+            <input type="text">
+            <input type="password">
+            <input type="number">
+            <input type="checkbox">
+            <input type="radio">
+            <input type="button" value="boton">
+            <input type="date">
+        
+        </form>
+        <form>
+            <input type="text" id="nombre">
+            <label for="nombre">Escribe tu nombre</label>
+            <label for="correo">correo</label>
+            <input type="email" id="correo">
+            <textarea cols="50" rows="10"> Escribe tu comentario </textarea>
+            <input type="radio" name="opciones" id="A">
+            <label for="A"><A>A</label>
+            <input type="radio" name="opciones" id="B">
+            <label for="B">B</label>
+        
+        
+        </form>
+        
+        
     </main>
-<form>
-    <input type="text">
-    <input type="password">
-    <input type="number">
-    <input type="checkbox">
-    <input type="radio">
-    <input type="button" value="boton">
-    <input type="date">
-
-</form>
-<form>
-    <input type="text" id="nombre">
-    <label for="nombre">Escribe tu nombre</label>
-    <label for="correo">correo</label>
-    <input type="email" id="correo">
-    <textarea cols="50" rows="10"> Escribe tu comentario </textarea>
-    <input type="radio" name="opciones" id="A">
-    <label for="A"><A>A</label>
-    <input type="radio" name="opciones" id="B">
-    <label for="B">B</label>
-
-
-</form>
-
+    <footer>
+ <p>Escuela de Código es un material educativo cuyo objetivo es ofrecer alternativas para trabajar el pensamiento computacional con el alumnado. Está pensado para el auto-aprendizaje y por tanto es susceptible de aprovechamiento por parte de alumnado, profesorado y familias. Se propone la iniciación al diseño de videojuegos usando la herramienta en línea Scratch 3.0. Durante su desarrollo se explican conceptos y procedimientos relacionados con la creación de videojuegos y se ejemplifica la elaboración de algunos modelos básicos que nos permitirán adentrarnos en este apasionante mundo. En el diseño y programación será necesario dominar y aplicar conocimientos de distintas áreas: matemáticas, lengua castellana, inglés, música, ciencias … en un entorno sumamente motivante y donde se apuesta por fomentar la competencia para crear tecnología y no sólo para usarla. </p>
+    </footer>
 
 
 
